@@ -1,0 +1,70 @@
+<!DOCTYPE html><html class="default" lang="en" data-base="./"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>gamifikace</title><meta name="description" content="Documentation for gamifikace"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><a href="index.html" class="title">gamifikace</a><div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/><ul role="listbox" id="tsd-search-results"></ul><div id="tsd-search-status" aria-live="polite" aria-atomic="true"><div>Preparing search index...</div></div></dialog><a href="#" class="tsd-widget menu" id="tsd-toolbar-menu-trigger" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-menu"></use></svg></a></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><h1>gamifikace</h1></div><div class="tsd-panel tsd-typography"><h1 id="dokumentácia-aplikácie-gamifikace" class="tsd-anchor-link">Dokumentácia aplikácie Gamifikace<a href="#dokumentácia-aplikácie-gamifikace" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1><h2 id="lokálne-spustenie-aplikácie" class="tsd-anchor-link">Lokálne spustenie aplikácie<a href="#lokálne-spustenie-aplikácie" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><ol>
+<li>
+<p><strong>Je potrebné mať nainštalovaný Node.js a npm</strong></p>
+<ul>
+<li>
+<p><strong>Windows</strong>: Stiahnite si inštalačný balík pre <strong>Windows</strong> z <a href="https://nodejs.org/">oficiálnej stránky Node.js</a>. Po inštalácii je možné skontrolovať inštaláciu pomocou príkazu:</p>
+<pre><code class="bash"><span class="hl-0">node</span><span class="hl-1"> </span><span class="hl-2">-v</span><br/><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">-v</span>
+</code><button type="button">Copy</button></pre>
+
+</li>
+<li>
+<p><strong>Mac</strong>: Môžete použiť <strong>Homebrew</strong> na inštaláciu Node.js:</p>
+<pre><code class="bash"><span class="hl-0">brew</span><span class="hl-1"> </span><span class="hl-3">install</span><span class="hl-1"> </span><span class="hl-3">node</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Skontrolujte inštaláciu:</p>
+<pre><code class="bash"><span class="hl-0">node</span><span class="hl-1"> </span><span class="hl-2">-v</span><br/><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">-v</span>
+</code><button type="button">Copy</button></pre>
+
+</li>
+<li>
+<p><strong>Linux</strong>: Na distribúciách ako <strong>Ubuntu</strong> alebo <strong>Debian</strong> použite príkaz:</p>
+<pre><code class="bash"><span class="hl-0">sudo</span><span class="hl-1"> </span><span class="hl-3">apt</span><span class="hl-1"> </span><span class="hl-3">update</span><br/><span class="hl-0">sudo</span><span class="hl-1"> </span><span class="hl-3">apt</span><span class="hl-1"> </span><span class="hl-3">install</span><span class="hl-1"> </span><span class="hl-3">nodejs</span><span class="hl-1"> </span><span class="hl-3">npm</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Na iných distribúciách použite ich správcu balíčkov. Skontrolujte inštaláciu:</p>
+<pre><code class="bash"><span class="hl-0">node</span><span class="hl-1"> </span><span class="hl-2">-v</span><br/><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">-v</span>
+</code><button type="button">Copy</button></pre>
+
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Inštalácia expo cli</strong></p>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-3">install</span><span class="hl-1"> </span><span class="hl-2">-g</span><span class="hl-1"> </span><span class="hl-3">expo-cli</span>
+</code><button type="button">Copy</button></pre>
+
+</li>
+<li>
+<p><strong>Nainštalovanie závyslostí</strong></p>
+<pre><code class="bash"><span class="hl-1"> </span><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-3">install</span>
+</code><button type="button">Copy</button></pre>
+
+</li>
+<li>
+<p><strong>Aplikáciu je možno spustiť na vývojovom serveri</strong></p>
+<pre><code class="bash"><span class="hl-1"> </span><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-3">expo</span><span class="hl-1"> </span><span class="hl-3">start</span>
+</code><button type="button">Copy</button></pre>
+
+<p>a následne pri stlačení tlačítka <code>w</code> bude aplikácia spustená na webovom rozhraní</p>
+</li>
+<li>
+<p><strong>Pokiaľ je zároveň spustený lokálne aj backend aplikácie je potrebné zmeniť url backendu</strong>
+Toto je potrebné urobiť v súbore <code>api\constants.tsx</code>. Taktiež je tu možné vložiť svoj open api token</p>
+</li>
+</ol>
+<h2 id="vygenerovanie-webových-súborov" class="tsd-anchor-link">Vygenerovanie webových súborov<a href="#vygenerovanie-webových-súborov" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>Vygenerovanie statických súborov na nasadenie na web je možné pomocou</p>
+<pre><code class="bash"><span class="hl-1"> </span><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-3">expo</span><span class="hl-1"> </span><span class="hl-3">export</span><span class="hl-1"> </span><span class="hl-2">--platform</span><span class="hl-1"> </span><span class="hl-3">web</span>
+</code><button type="button">Copy</button></pre>
+
+<h2 id="vygenerovanie-inštalačného-súboru-apk-pre-android" class="tsd-anchor-link">Vygenerovanie inštalačného súboru .apk pre android<a href="#vygenerovanie-inštalačného-súboru-apk-pre-android" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>Toto je možné pomocou služby EAS pre to je však potrebné mať vytvorený účet na <a href="https://expo.dev">expo-dev</a> a následne príkazom</p>
+<pre><code class="bash"><span class="hl-1"> </span><span class="hl-0">eas</span><span class="hl-1"> </span><span class="hl-3">build</span><span class="hl-1"> </span><span class="hl-2">--profile</span><span class="hl-1"> </span><span class="hl-3">preview</span><span class="hl-1"> </span><span class="hl-2">--platform</span><span class="hl-1"> </span><span class="hl-3">android</span>
+</code><button type="button">Copy</button></pre>
+
+<h2 id="vygenerovanie-inštalačného-súboru-pre-ios" class="tsd-anchor-link">Vygenerovanie inštalačného súboru pre iOS<a href="#vygenerovanie-inštalačného-súboru-pre-ios" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>Toto je možné pomocou služby EAS pre to je však potrebné mať vytvorený účet na <a href="https://expo.dev">expo-dev</a> a taktiež apple developer account ktorý stojí 100€ (nebolo testované) a následne príkazom</p>
+<pre><code class="bash"><span class="hl-1"> </span><span class="hl-0">eas</span><span class="hl-1"> </span><span class="hl-3">build</span><span class="hl-1"> </span><span class="hl-2">--profile</span><span class="hl-1"> </span><span class="hl-3">preview</span><span class="hl-1"> </span><span class="hl-2">--platform</span><span class="hl-1"> </span><span class="hl-3">ios</span>
+</code><button type="button">Copy</button></pre>
+
+<h2 id="vygenerovanie-dokumentácie" class="tsd-anchor-link">Vygenerovanie dokumentácie<a href="#vygenerovanie-dokumentácie" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>Toto je možné pomocou príkazu <code>npm run docs</code> dokumentácia sa následne nachadza v korenovom súbore projektu v zložke docs</p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-accordion"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-chevronDown"></use></svg><h3>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></div><div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-chevronDown"></use></svg><h3>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#dokumentácia-aplikácie-gamifikace"><span>Dokumentácia aplikácie <wbr/>Gamifikace</span></a><ul><li><a href="#lokálne-spustenie-aplikácie"><span>Lokálne spustenie aplikácie</span></a></li><li><a href="#vygenerovanie-webových-súborov"><span>Vygenerovanie webových súborov</span></a></li><li><a href="#vygenerovanie-inštalačného-súboru-apk-pre-android"><span>Vygenerovanie inštalačného súboru .apk pre android</span></a></li><li><a href="#vygenerovanie-inštalačného-súboru-pre-ios"><span>Vygenerovanie inštalačného súboru pre i<wbr/>OS</span></a></li><li><a href="#vygenerovanie-dokumentácie"><span>Vygenerovanie dokumentácie</span></a></li></ul></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="modules.html">gamifikace</a><ul class="tsd-small-nested-navigation" id="tsd-nav-container"><li>Loading...</li></ul></nav></div></div></div><footer></footer><div class="overlay"></div></body></html>

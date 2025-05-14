@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["./app/docs-exports.ts"],
+  "out": "./docs",
+  "categorizeByGroup": true,
+  "hideGenerator": true
+}
